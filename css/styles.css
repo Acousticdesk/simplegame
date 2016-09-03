@@ -1,0 +1,29 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+ul {
+	list-style-type: none;
+}
+
+.grid__item {
+	float: left;
+	width: 20%;
+	height: 100px;
+	line-height: 100px;
+	text-align: center;
+	box-shadow: 0 0 1px 0 #000;
+}
+
+.player {
+	display: inline-block;
+	border-radius: 50%;
+	width: 20px;
+	height: 20px;
+	background: tomato;
+}
+
+.player.selected {
+	border: 2px solid #dddddd;
+}
